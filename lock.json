@@ -1,0 +1,145 @@
+{
+    "memo": "41f9db9f9e57da115ffd55bdc59ddfc9baa28f8242855b8f1be0e57d1d7ec468",
+    "projects": [
+        {
+            "name": "github.com/ansel1/merry",
+            "branch": "master",
+            "revision": "c117be056e0013c04fd7c4141a4dd68672943526",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/coreos/go-systemd",
+            "branch": "master",
+            "revision": "1f9909e51b2dab2487c26d64c8f2e7e580e4c9f5",
+            "packages": [
+                "dbus"
+            ]
+        },
+        {
+            "name": "github.com/go-errors/errors",
+            "branch": "master",
+            "revision": "8fa88b06e5974e97fbf9899a7f86a344bfd1f105",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/godbus/dbus",
+            "version": "v4.0.0",
+            "revision": "5f6efc7ef2759c81b7ba876593971bfce311eab3",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/golang/protobuf",
+            "branch": "master",
+            "revision": "2bba0603135d7d7f5cb73b2125beeda19c09f4ef",
+            "packages": [
+                "proto",
+                "ptypes/any"
+            ]
+        },
+        {
+            "name": "github.com/inconshreveable/mousetrap",
+            "branch": "master",
+            "revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/sirupsen/logrus",
+            "branch": "master",
+            "revision": "0208149b40d863d2c1a2f8fe5753096a9cf2cc8b",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/spf13/cobra",
+            "branch": "master",
+            "revision": "16c014f1a19d865b765b420e74508f80eb831ada",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/spf13/pflag",
+            "branch": "master",
+            "revision": "9ff6c6923cfffbcd502984b8e0c80539a94968b7",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "golang.org/x/net",
+            "branch": "master",
+            "revision": "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344",
+            "packages": [
+                "context",
+                "http2",
+                "http2/hpack",
+                "idna",
+                "internal/timeseries",
+                "lex/httplex",
+                "trace"
+            ]
+        },
+        {
+            "name": "golang.org/x/sys",
+            "branch": "master",
+            "revision": "9f30dcbe5be197894515a338a9bda9253567ea8f",
+            "packages": [
+                "unix"
+            ]
+        },
+        {
+            "name": "golang.org/x/text",
+            "branch": "master",
+            "revision": "a9a820217f98f7c8a207ec1e45a874e1fe12c478",
+            "packages": [
+                "internal/gen",
+                "internal/triegen",
+                "internal/ucd",
+                "secure/bidirule",
+                "transform",
+                "unicode/bidi",
+                "unicode/cldr",
+                "unicode/norm",
+                "unicode/rangetable"
+            ]
+        },
+        {
+            "name": "google.golang.org/genproto",
+            "branch": "master",
+            "revision": "411e09b969b1170a9f0c467558eb4c4c110d9c77",
+            "packages": [
+                "googleapis/rpc/status"
+            ]
+        },
+        {
+            "name": "google.golang.org/grpc",
+            "branch": "master",
+            "revision": "c73e0165df8e5495c523feb93a8a6c19b9452817",
+            "packages": [
+                ".",
+                "codes",
+                "credentials",
+                "grpclb/grpc_lb_v1",
+                "grpclog",
+                "internal",
+                "keepalive",
+                "metadata",
+                "naming",
+                "peer",
+                "stats",
+                "status",
+                "tap",
+                "transport"
+            ]
+        }
+    ]
+}

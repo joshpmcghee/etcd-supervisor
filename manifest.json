@@ -1,0 +1,25 @@
+{
+    "dependencies": {
+        "github.com/ansel1/merry": {
+            "branch": "master"
+        },
+        "github.com/coreos/go-systemd": {
+            "branch": "master"
+        },
+        "github.com/golang/protobuf": {
+            "branch": "master"
+        },
+        "github.com/sirupsen/logrus": {
+            "branch": "master"
+        },
+        "github.com/spf13/cobra": {
+            "branch": "master"
+        },
+        "golang.org/x/net": {
+            "branch": "master"
+        },
+        "google.golang.org/grpc": {
+            "branch": "master"
+        }
+    }
+}

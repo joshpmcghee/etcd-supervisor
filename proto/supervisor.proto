@@ -1,0 +1,28 @@
+syntax = 'proto3';
+
+package generated;
+
+service SupervisorService {
+    rpc Bootstrap(BootstrapRequest) returns (BootstrapResponse);
+    rpc Leave(LeaveRequest) returns (LeaveResponse);
+    rpc Join(JoinRequest) returns (JoinResponse);
+    rpc Upgrade(UpgradeRequest) returns (UpgradeResponse);
+    rpc Subjugate(SubjugateRequest) returns (SubjugateResponse);
+}
+
+message BootstrapRequest {
+    string discovery_url = 1;
+}
+message BootstrapResponse {}
+
+message LeaveRequest {}
+message LeaveResponse {}
+
+message JoinRequest {}
+message JoinResponse {}
+
+message UpgradeRequest {}
+message UpgradeResponse {}
+
+message SubjugateRequest {}
+message SubjugateResponse {}

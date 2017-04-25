@@ -1,0 +1,23 @@
+[Unit]
+Description=Etcd supervised by etcd-supervisor. Do not touch.
+
+[Service]
+User=etcd
+Type=notify
+Environment=ETCD_DATA_DIR=/var/lib/etcd
+{{- if .DiscoveryURL }}
+Environment=ETCD_DISCOVERY={{ .DiscoveryURL }}
+{{- end }}
+{{- if .ExistingCluster }}
+Environment=ETCD_INITIAL_CLUSTER_STATE=existing
+{{- else }}
+Environment=ETCD_INITIAL_CLUSTER_STATE=new
+{{- end }}
+Environment=ETCD_NAME=%m
+ExecStart=/usr/bin/etcd
+Restart=always
+RestartSec=10s
+LimitNOFILE=40000
+
+[Install]
+WantedBy=multi-user.target
